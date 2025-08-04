@@ -1,27 +1,39 @@
-# Excercise1
+This document outlines the development process of the Loss Data Analysis application, built using Angular. The application allows users to upload Excel files containing loss data and performs various analyses, including generating a loss triangle, calculating link ratios, and calculating IBNR.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+# Features
+Excel File Upload: Users can upload .xlsx or .xls files.  
 
-## Development server
+Data Processing: The application processes the uploaded data to generate loss triangles, calculate link ratios, and calculate IBNR.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Dynamic Tables: Results are displayed in responsive tables.
 
-## Code scaffolding
+# Project process
+1. I started with checking the doc type to see what type of data we are working with.
+2. learn what is loss triangle, link ratios, IBNR, chain ladder method.
+3. start creating the interface.
+4. create the generate loss triangle function.
+5. create the link ratio functions.
+6. create the IBNR function.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Project structure
+1. app.component.ts
+The main TypeScript file contains the logic for file uploading, data processing, and displaying results.
+2. app.component.html
+Includes buttons for uploading files, displaying the results in tables.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Screenshot (22)](https://github.com/user-attachments/assets/f42812a4-4d7c-4adb-8f24-b0a0d41c3e94)
 
-## Running unit tests
+Generate Loss Triangle
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Screenshot (24)](https://github.com/user-attachments/assets/04001f64-2303-4864-93f7-27fb08b759ac)
 
-## Running end-to-end tests
+Calculate Link ratios
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Screenshot (25)](https://github.com/user-attachments/assets/4dca7514-cdc1-4e2c-a4e4-7762a3573bf1)
 
-## Further help
+IBNR
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Screenshot (27)](https://github.com/user-attachments/assets/406a3124-0428-40d2-9323-afaf6269f458)
+
+
