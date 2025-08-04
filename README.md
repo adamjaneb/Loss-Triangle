@@ -21,19 +21,19 @@ The main TypeScript file contains the logic for file uploading, data processing,
 2. app.component.html
 Includes buttons for uploading files, displaying the results in tables.
 
-
-![Screenshot (22)](https://github.com/user-attachments/assets/f42812a4-4d7c-4adb-8f24-b0a0d41c3e94)
+![Screenshot (22)](https://github.com/user-attachments/assets/3c584f68-68a2-46ae-bc73-e7c786dbb5c4)
 
 Generate Loss Triangle
 
-![Screenshot (24)](https://github.com/user-attachments/assets/04001f64-2303-4864-93f7-27fb08b759ac)
+![Screenshot (24)](https://github.com/user-attachments/assets/f6c2e3ca-f11c-4f60-a635-f2e679764886)
+
 
 Calculate Link ratios
 
-![Screenshot (25)](https://github.com/user-attachments/assets/4dca7514-cdc1-4e2c-a4e4-7762a3573bf1)
+![Screenshot (25)](https://github.com/user-attachments/assets/cd856411-ebf4-440b-8900-94a7a3fc0ada)
 
 IBNR
 
-![Screenshot (27)](https://github.com/user-attachments/assets/406a3124-0428-40d2-9323-afaf6269f458)
+![Screenshot (27)](https://github.com/user-attachments/assets/41a9cf99-1299-4f3e-9d9f-d5e953a1e618)
 
 
